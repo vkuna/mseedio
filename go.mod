@@ -1,3 +1,3 @@
-module github.com/bclswl0827/mseedio
+module github.com/vkuna/mseedio
 
 go 1.20
