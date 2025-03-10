@@ -46,7 +46,7 @@ func (m *MiniSeedData) Read(filePath string) error {
 		blocketteSections = []blocketteSection{}
 		samplesNumber     = 0 // Total number of samples
 	)
-	for i := 0; i < len(bytes); i += 64 {
+	for i := 0; i < len(bytes); i += 512 {
 		var (
 			fs = fixedSection{}
 			bs = blocketteSection{}
